@@ -1,5 +1,5 @@
 {
-    "title": "Gitbook Template",
+    "title": "Quant",
     "author": "renkeju",
     "output.name": "site",
     "language": "zh-hans",
@@ -16,7 +16,7 @@
     },
     "links": {
         "sidebar": {
-            "Home": "https://gitbook.renkeju.com"
+            "Home": "https://quant.renkeju.com"
         },
         "gitbook": false,
         "sharing": {
@@ -42,7 +42,7 @@
     "pluginsConfig": {
         "favicon": "images/favicon.png",
         "github": {
-            "url": "https://github.com/renkeju/gitbook-template"
+            "url": "https://github.com/renkeju/quant"
         },
         "terminal": {
             "copyButtons": true,
@@ -50,7 +50,7 @@
             "style": "flat"
         },
         "edit-link": {
-            "base": "https://github.com/renkeju/gitbook-template/edit/master",
+            "base": "https://github.com/renkeju/quant/edit/master",
             "label": "编辑这个页面"
         },
         "image-captions": {
