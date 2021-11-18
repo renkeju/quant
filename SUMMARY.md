@@ -14,6 +14,8 @@
         * [高级索引](chapter_1/1.1.9.Advanced_index.md)
         * [广播](chapter_1/1.1.10.Broadcast.md)
         * [迭代数组](chapter_1/1.1.11.Iterative_array.md)
+        * [数组操作](chapter_1/1.1.12.Array_operation.md)
+        * [位运算](chapter_1/1.1.13.Bit_operation.md)
     * [SciPy](chapter_1/1.2.scipy.md)
     * [Pandas](chapter_1/1.3.pandas.md)
     * [matplotlib](chapter_1/1.4.matplotlib.md)
