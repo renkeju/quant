@@ -1,0 +1,806 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>矩阵库 · Quant</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Ren keju">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/css/WebStyle.css">
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.1.22.Linear_algebra.html" />
+    
+    
+    <link rel="prev" href="1.1.20.Copies_and_views.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://quant.renkeju.com" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1.numpy.html">
+            
+                <a href="1.1.numpy.html">
+            
+                    
+                    NumPy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="1.1.1.install.html">
+            
+                <a href="1.1.1.install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="1.1.2.ndarray.html">
+            
+                <a href="1.1.2.ndarray.html">
+            
+                    
+                    ndarray 对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="1.1.3.datatype.html">
+            
+                <a href="1.1.3.datatype.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="1.1.4.array_property.html">
+            
+                <a href="1.1.4.array_property.html">
+            
+                    
+                    数组属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="1.1.5.create_array.html">
+            
+                <a href="1.1.5.create_array.html">
+            
+                    
+                    创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="1.1.6.Create_an_array_from_an_existing_array.html">
+            
+                <a href="1.1.6.Create_an_array_from_an_existing_array.html">
+            
+                    
+                    从已有数组创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="1.1.7.Create_an_array_from_a_numeric_range.html">
+            
+                <a href="1.1.7.Create_an_array_from_a_numeric_range.html">
+            
+                    
+                    从数值范围创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="1.1.8.Slice_and_index.html">
+            
+                <a href="1.1.8.Slice_and_index.html">
+            
+                    
+                    切片和索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.9" data-path="1.1.9.Advanced_index.html">
+            
+                <a href="1.1.9.Advanced_index.html">
+            
+                    
+                    高级索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.10" data-path="1.1.10.Broadcast.html">
+            
+                <a href="1.1.10.Broadcast.html">
+            
+                    
+                    广播
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.11" data-path="1.1.11.Iterative_array.html">
+            
+                <a href="1.1.11.Iterative_array.html">
+            
+                    
+                    迭代数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.12" data-path="1.1.12.Array_operation.html">
+            
+                <a href="1.1.12.Array_operation.html">
+            
+                    
+                    数组操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.13" data-path="1.1.13.Bit_operation.html">
+            
+                <a href="1.1.13.Bit_operation.html">
+            
+                    
+                    位运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.14" data-path="1.1.14.String_functions.html">
+            
+                <a href="1.1.14.String_functions.html">
+            
+                    
+                    字符串函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.15" data-path="1.1.15.Mathematical_functions.html">
+            
+                <a href="1.1.15.Mathematical_functions.html">
+            
+                    
+                    数学函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.16" data-path="1.1.16.Arithmetic_operations.html">
+            
+                <a href="1.1.16.Arithmetic_operations.html">
+            
+                    
+                    算术函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.17" data-path="1.1.17.Statistical_functions.html">
+            
+                <a href="1.1.17.Statistical_functions.html">
+            
+                    
+                    统计函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.18" data-path="1.1.18.Sort_search.html">
+            
+                <a href="1.1.18.Sort_search.html">
+            
+                    
+                    排序、条件刷选函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.19" data-path="1.1.19.Byte_swapping.html">
+            
+                <a href="1.1.19.Byte_swapping.html">
+            
+                    
+                    字节交换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.20" data-path="1.1.20.Copies_and_views.html">
+            
+                <a href="1.1.20.Copies_and_views.html">
+            
+                    
+                    副本和视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.21" data-path="1.1.21.Matrix.html">
+            
+                <a href="1.1.21.Matrix.html">
+            
+                    
+                    矩阵库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.22" data-path="1.1.22.Linear_algebra.html">
+            
+                <a href="1.1.22.Linear_algebra.html">
+            
+                    
+                    线性代数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.23" data-path="1.1.23.io.html">
+            
+                <a href="1.1.23.io.html">
+            
+                    
+                    IO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="1.2.scipy.html">
+            
+                <a href="1.2.scipy.html">
+            
+                    
+                    SciPy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="1.2.1.Install.html">
+            
+                <a href="1.2.1.Install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="1.2.2.Module.html">
+            
+                <a href="1.2.2.Module.html">
+            
+                    
+                    模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="1.2.3.constants.html">
+            
+                <a href="1.2.3.constants.html">
+            
+                    
+                    常量模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="1.2.4.Optimize.html">
+            
+                <a href="1.2.4.Optimize.html">
+            
+                    
+                    优化器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="1.3.pandas.html">
+            
+                <a href="1.3.pandas.html">
+            
+                    
+                    Pandas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4.matplotlib.html">
+            
+                <a href="1.4.matplotlib.html">
+            
+                    
+                    matplotlib
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >矩阵库</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x77E9;&#x9635;&#x5E93;"><a name="&#x77E9;&#x9635;&#x5E93;" class="plugin-anchor" href="#&#x77E9;&#x9635;&#x5E93;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x77E9;&#x9635;&#x5E93;</h1>
+<p>NumPy &#x4E2D;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x4E2A;&#x77E9;&#x9635;&#x5E93; numpy.matlib&#xFF0C;&#x8BE5;&#x6A21;&#x5757;&#x4E2D;&#x7684;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x77E9;&#x9635;&#xFF0C;&#x800C;&#x4E0D;&#x662F; ndarray &#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x4E00;&#x4E2A; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mo>&#xD7;</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">m \times n </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.58333em;"></span><span class="strut bottom" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="base textstyle uncramped"><span class="mord mathit">m</span><span class="mbin">&#xD7;</span><span class="mord mathit">n</span></span></span></span> &#x7684;&#x77E9;&#x9635;&#x662F;&#x4E00;&#x4E2A;&#x7531;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">m</span></span></span></span>&#x884C;&#xFF08;row&#xFF09;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">n</span></span></span></span>&#x5217;&#xFF08;column&#xFF09;&#x5143;&#x7D20;&#x6392;&#x5217;&#x6210;&#x7684;&#x77E9;&#x5F62;&#x9635;&#x5217;&#x3002;</p>
+<p>&#x77E9;&#x9635;&#x91CC;&#x7684;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x662F;&#x6570;&#x5B57;&#x3001;&#x7B26;&#x53F7;&#x6216;&#x6570;&#x5B66;&#x5F0F;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x4E00;&#x4E2A;&#x7531;6&#x4E2A;&#x6570;&#x5B57;&#x5143;&#x7D20;&#x6784;&#x6210;&#x7684;2&#x884C;3&#x5217;&#x7684;&#x77E9;&#x9635;&#xFF1A;</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mo fence="true">[</mo><mtable><mtr><mtd><mrow><mn>1</mn></mrow></mtd><mtd><mrow><mn>9</mn></mrow></mtd><mtd><mrow><mo>&#x2212;</mo><mn>1</mn><mn>3</mn></mrow></mtd></mtr><mtr><mtd><mrow><mn>2</mn><mn>0</mn></mrow></mtd><mtd><mrow><mn>5</mn></mrow></mtd><mtd><mrow><mo>&#x2212;</mo><mn>6</mn></mrow></mtd></mtr></mtable><mo fence="true">]</mo></mrow></mrow><annotation encoding="application/x-tex">
+\begin{bmatrix}
+1  &amp; 9 &amp; -13 \\
+20  &amp; 5 &amp; -6
+\end{bmatrix}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.45em;"></span><span class="strut bottom" style="height:2.40003em;vertical-align:-0.95003em;"></span><span class="base displaystyle textstyle uncramped"><span class="minner displaystyle textstyle uncramped"><span class="mopen style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size3">[</span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist"><span style="top:-0.6099999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord mathrm">1</span></span></span><span style="top:0.5900000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord mathrm">2</span><span class="mord mathrm">0</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist"><span style="top:-0.6099999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord mathrm">9</span></span></span><span style="top:0.5900000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord mathrm">5</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist"><span style="top:-0.6099999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord">&#x2212;</span><span class="mord mathrm">1</span><span class="mord mathrm">3</span></span></span><span style="top:0.5900000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="mord displaystyle textstyle uncramped"><span class="mord">&#x2212;</span><span class="mord mathrm">6</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span></span><span class="mclose style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size3">]</span></span></span></span></span></span></span></p>
+<h2 id="&#x8F6C;&#x7F6E;&#x77E9;&#x9635;"><a name="&#x8F6C;&#x7F6E;&#x77E9;&#x9635;" class="plugin-anchor" href="#&#x8F6C;&#x7F6E;&#x77E9;&#x9635;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8F6C;&#x7F6E;&#x77E9;&#x9635;</h2>
+<p>NumPy &#x4E2D;&#x9664;&#x4E86;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; numpy.transpose &#x51FD;&#x6570;&#x6765;&#x5BF9;&#x6362;&#x6570;&#x7EC4;&#x7684;&#x7EF4;&#x5EA6;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <code>T</code> &#x5C5E;&#x6027;&#x3002;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#x6709;&#x4E2A;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">m</span></span></span></span>&#x884C;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">n</span></span></span></span>&#x5217;&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x4F7F;&#x7528; t() &#x51FD;&#x6570;&#x5C31;&#x80FD;&#x8F6C;&#x6362;&#x4E3A;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">n</span></span></span></span>&#x884C;<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord mathit">m</span></span></span></span>&#x5217;&#x7684;&#x77E9;&#x9635;&#x3002;</p>
+<p><div class="image-wrapper"><img src="../images/chapter_1/1.1.21.Matrix_transpose.gif" alt="Matrix Tranpose"></div>
+<div class="image-wrapper"><img src="../images/chapter_1/1.1.21.Matrix_transpose.svg" alt="Matrix Tranpose"></div></p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(12).reshape(3, 4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+&gt;&gt;&gt; print(a.T)
+[[ 0  4  8]
+ [ 1  5  9]
+ [ 2  6 10]
+ [ 3  7 11]]
+</code></pre><h2 id="numpymatlibempty"><a name="numpymatlibempty" class="plugin-anchor" href="#numpymatlibempty"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.empty()</h2>
+<p>matlib.empty() &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x8BED;&#x6CD5;&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code>numpy.matlib.empty(shape, dtype, order)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>shape&#xFF1A;&#x5B9A;&#x4E49;&#x65B0;&#x77E9;&#x9635;&#x5F62;&#x72B6;&#x7684;&#x6574;&#x6570;&#x6216;&#x6574;&#x6570;&#x5143;&#x7EC4;</li>
+<li>Dtype&#xFF1A;&#x53EF;&#x9009;&#xFF0C;&#x6570;&#x636E;&#x7C7B;&#x578B;</li>
+<li>order&#xFF1A;C&#xFF08;&#x884C;&#x5E8F;&#x4F18;&#x5148;&#xFF09;&#x6216;&#x8005; F&#xFF08;&#x5217;&#x5E8F;&#x4F18;&#x5148;&#xFF09;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.empty((2, 2)))
+[[0.00000000e+000 2.96174557e-085]
+ [4.48036926e-067 1.41303097e-308]]
+</code></pre><h2 id="numpymatlibzeros"><a name="numpymatlibzeros" class="plugin-anchor" href="#numpymatlibzeros"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.zeros()</h2>
+<p>numpy.matlib.zeros() &#x51FD;&#x6570;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x4EE5;0&#x586B;&#x5145;&#x7684;&#x77E9;&#x9635;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.zeros((2, 2)))
+[[0. 0.]
+ [0. 0.]]
+</code></pre><h2 id="numpymatlibones"><a name="numpymatlibones" class="plugin-anchor" href="#numpymatlibones"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.ones()</h2>
+<p>numpy.matlib.ones() &#x51FD;&#x6570;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x4EE5;1&#x586B;&#x5145;&#x7684;&#x77E9;&#x9635;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.ones((2, 2)))
+[[1. 1.]
+ [1. 1.]]
+</code></pre><h2 id="numpymatlibeye"><a name="numpymatlibeye" class="plugin-anchor" href="#numpymatlibeye"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.eye()</h2>
+<p>numpy.matlib.eye() &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x77E9;&#x9635;&#xFF0C;&#x5BF9;&#x89D2;&#x7EBF;&#x5143;&#x7D20;&#x4E3A;1&#xFF0C;&#x5176;&#x4ED6;&#x4F4D;&#x7F6E;&#x4E3A;&#x96F6;&#x3002;</p>
+<pre><code>numpy.matlib.eye(n, M, k, dtype)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>n&#xFF1A;&#x8FD4;&#x56DE;&#x77E9;&#x9635;&#x7684;&#x884C;&#x6570;</li>
+<li>M&#xFF1A;&#x8FD4;&#x56DE;&#x77E9;&#x9635;&#x7684;&#x5217;&#x6570;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A; n</li>
+<li>k&#xFF1A;&#x5BF9;&#x89D2;&#x7EBF;&#x7684;&#x7D22;&#x5F15;</li>
+<li>dtype: &#x6570;&#x636E;&#x7C7B;&#x578B;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.eye(n = 3, M = 4, k = 0, dtype = float))
+[[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+</code></pre><h2 id="numpymatlibidentity"><a name="numpymatlibidentity" class="plugin-anchor" href="#numpymatlibidentity"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.identity()</h2>
+<p>numpy.matlib.identity() &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7ED9;&#x5B9A;&#x5927;&#x5C0F;&#x7684;&#x5355;&#x4F4D;&#x77E9;&#x9635;&#x3002;</p>
+<p>&#x5355;&#x4F4D;&#x77E9;&#x9635;&#x5F0F;&#x4E2A;&#x65B9;&#x9635;&#xFF0C;&#x4ECE;&#x5DE6;&#x4E0A;&#x89D2;&#x5230;&#x53F3;&#x4E0B;&#x89D2;&#x7684;&#x5BF9;&#x89D2;&#x7EBF;&#xFF08;&#x79F0;&#x4E3A;&#x4E3B;&#x5BF9;&#x89D2;&#x7EBF;&#xFF09;&#x4E0A;&#x7684;&#x5143;&#x7D20;&#x5747;&#x4E3A;1&#xFF0C;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#x5168;&#x90FD;&#x4E3A; 0&#x3002;</p>
+<figure id="fig1.2.1.21.1"><div class="image-wrapper"><img src="../images/chapter_1/1.1.21.Matrix_identity.png" alt="Matrix Identity"></div><figcaption>&#x56FE; 1.2.1.21 - Matrix Identity </figcaption></figure>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.identity(5, dtype = float))
+[[1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 1.]]
+</code></pre><h2 id="numpymatlibrand"><a name="numpymatlibrand" class="plugin-anchor" href="#numpymatlibrand"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.matlib.rand()</h2>
+<p>numpy.matlib.rand() &#x51FD;&#x6570;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7ED9;&#x5B9A;&#x5927;&#x5C0F;&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x6570;&#x636E;&#x662F;&#x968F;&#x673A;&#x586B;&#x5145;&#x7684;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; print(np.matlib.rand(3, 3))
+[[0.0848446  0.760929   0.94157133]
+ [0.67884563 0.82797055 0.28249415]
+ [0.02912332 0.18955343 0.08051821]]
+</code></pre><p>&#x77E9;&#x9635;&#x603B;&#x662F;&#x4E8C;&#x7EF4;&#x7684;&#xFF0C;&#x800C; ndarray &#x662F;&#x4E00;&#x4E2A; n &#x7EF4;&#x6570;&#x7EC4;&#x3002;&#x4E24;&#x4E2A;&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x53EF;&#x4E92;&#x6362;&#x7684;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy.matlib
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; i = np.matrix(&apos;1,2;3,4&apos;)
+&gt;&gt;&gt; print(1)
+1
+&gt;&gt;&gt; print(i)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; j = np.asarray(i)
+&gt;&gt;&gt; print(j)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; k = np.asmatrix(j)
+&gt;&gt;&gt; print(k)
+[[1 2]
+ [3 4]]
+</code></pre>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.1.20.Copies_and_views.html" class="navigation navigation-prev " aria-label="Previous page: 副本和视图">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.1.22.Linear_algebra.html" class="navigation navigation-next " aria-label="Next page: 线性代数">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"矩阵库","level":"1.2.1.21","depth":3,"next":{"title":"线性代数","level":"1.2.1.22","depth":3,"path":"chapter_1/1.1.22.Linear_algebra.md","ref":"chapter_1/1.1.22.Linear_algebra.md","articles":[]},"previous":{"title":"副本和视图","level":"1.2.1.20","depth":3,"path":"chapter_1/1.1.20.Copies_and_views.md","ref":"chapter_1/1.1.20.Copies_and_views.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","expandable-chapters","search-plus","github","terminal","anchors","edit-link","image-captions","image-wrapper","popup","katex","custom-favicon"],"root":".","styles":{"website":"assets/css/WebStyle.css","pdf":"assets/css/PdfStyle.css","mobi":"assets/css/MobiStyle.css","epub":"assets/css/EpubStyle.css"},"pluginsConfig":{"image-wrapper":{},"github":{"url":"https://github.com/renkeju/quant"},"popup":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"images/favicon.png","custom-favicon":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"edit-link":{"label":"编辑这个页面","base":"https://github.com/renkeju/quant/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{},"search-plus":{},"image-captions":{"caption":"图 _PAGE_LEVEL_ - _CAPTION_ ","images":{"1.1.1":{"skip":true},"1.1.2":{"skip":true}},"variable_name":"_pictures"}},"theme":"default","author":"Ren keju","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"chapter_1/1.1.2.ndarray.html#fig1.2.1.2.1","level":"1.2.1.2","list_caption":"Figure: ndarray","alt":"ndarray","nro":1,"url":"/images/chapter_1/1.1.3.ndarray.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"ndarray","attributes":{},"skip":false,"key":"1.2.1.2.1"},{"backlink":"chapter_1/1.1.10.Broadcast.html#fig1.2.1.10.1","level":"1.2.1.10","list_caption":"Figure: broadcast","alt":"broadcast","nro":2,"url":"/images/chapter_1/1.1.10.numpy_array_broadcast.gif","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"broadcast","attributes":{},"skip":false,"key":"1.2.1.10.1"},{"backlink":"chapter_1/1.1.19.Byte_swapping.html#fig1.2.1.19.1","level":"1.2.1.19","list_caption":"Figure: 字节交换","alt":"字节交换","nro":3,"url":"/images/chapter_1/1.1.19.Byte_swapping.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"字节交换","attributes":{},"skip":false,"key":"1.2.1.19.1"},{"backlink":"chapter_1/1.1.21.Matrix.html#fig1.2.1.21.1","level":"1.2.1.21","list_caption":"Figure: Matrix Identity","alt":"Matrix Identity","nro":4,"url":"/images/chapter_1/1.1.21.Matrix_identity.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"Matrix Identity","attributes":{},"skip":false,"key":"1.2.1.21.1"},{"backlink":"chapter_1/1.1.22.Linear_algebra.html#fig1.2.1.22.1","level":"1.2.1.22","list_caption":"Figure: Linear algbra","alt":"Linear algbra","nro":5,"url":"/images/chapter_1/1.1.22.linear-algebra.jpeg","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"Linear algbra","attributes":{},"skip":false,"key":"1.2.1.22.1"}]},"title":"Quant","language":"zh-hans","links":{"sidebar":{"Home":"https://quant.renkeju.com"},"gitbook":false,"sharing":{"twitter":false,"facebook":false,"all":false}},"gitbook":"3.2.3","this":{"output":{"name":"quant"}}},"file":{"path":"chapter_1/1.1.21.Matrix.md","mtime":"2021-11-22T15:00:20.379Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-22T15:01:20.086Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

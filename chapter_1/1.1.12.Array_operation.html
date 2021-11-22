@@ -1,0 +1,1418 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>数组操作 · Quant</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Ren keju">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assets/css/WebStyle.css">
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.1.13.Bit_operation.html" />
+    
+    
+    <link rel="prev" href="1.1.11.Iterative_array.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://quant.renkeju.com" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1.numpy.html">
+            
+                <a href="1.1.numpy.html">
+            
+                    
+                    NumPy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="1.1.1.install.html">
+            
+                <a href="1.1.1.install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="1.1.2.ndarray.html">
+            
+                <a href="1.1.2.ndarray.html">
+            
+                    
+                    ndarray 对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="1.1.3.datatype.html">
+            
+                <a href="1.1.3.datatype.html">
+            
+                    
+                    数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="1.1.4.array_property.html">
+            
+                <a href="1.1.4.array_property.html">
+            
+                    
+                    数组属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="1.1.5.create_array.html">
+            
+                <a href="1.1.5.create_array.html">
+            
+                    
+                    创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="1.1.6.Create_an_array_from_an_existing_array.html">
+            
+                <a href="1.1.6.Create_an_array_from_an_existing_array.html">
+            
+                    
+                    从已有数组创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.7" data-path="1.1.7.Create_an_array_from_a_numeric_range.html">
+            
+                <a href="1.1.7.Create_an_array_from_a_numeric_range.html">
+            
+                    
+                    从数值范围创建数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.8" data-path="1.1.8.Slice_and_index.html">
+            
+                <a href="1.1.8.Slice_and_index.html">
+            
+                    
+                    切片和索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.9" data-path="1.1.9.Advanced_index.html">
+            
+                <a href="1.1.9.Advanced_index.html">
+            
+                    
+                    高级索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.10" data-path="1.1.10.Broadcast.html">
+            
+                <a href="1.1.10.Broadcast.html">
+            
+                    
+                    广播
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.11" data-path="1.1.11.Iterative_array.html">
+            
+                <a href="1.1.11.Iterative_array.html">
+            
+                    
+                    迭代数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.12" data-path="1.1.12.Array_operation.html">
+            
+                <a href="1.1.12.Array_operation.html">
+            
+                    
+                    数组操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.13" data-path="1.1.13.Bit_operation.html">
+            
+                <a href="1.1.13.Bit_operation.html">
+            
+                    
+                    位运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.14" data-path="1.1.14.String_functions.html">
+            
+                <a href="1.1.14.String_functions.html">
+            
+                    
+                    字符串函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.15" data-path="1.1.15.Mathematical_functions.html">
+            
+                <a href="1.1.15.Mathematical_functions.html">
+            
+                    
+                    数学函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.16" data-path="1.1.16.Arithmetic_operations.html">
+            
+                <a href="1.1.16.Arithmetic_operations.html">
+            
+                    
+                    算术函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.17" data-path="1.1.17.Statistical_functions.html">
+            
+                <a href="1.1.17.Statistical_functions.html">
+            
+                    
+                    统计函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.18" data-path="1.1.18.Sort_search.html">
+            
+                <a href="1.1.18.Sort_search.html">
+            
+                    
+                    排序、条件刷选函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.19" data-path="1.1.19.Byte_swapping.html">
+            
+                <a href="1.1.19.Byte_swapping.html">
+            
+                    
+                    字节交换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.20" data-path="1.1.20.Copies_and_views.html">
+            
+                <a href="1.1.20.Copies_and_views.html">
+            
+                    
+                    副本和视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.21" data-path="1.1.21.Matrix.html">
+            
+                <a href="1.1.21.Matrix.html">
+            
+                    
+                    矩阵库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.22" data-path="1.1.22.Linear_algebra.html">
+            
+                <a href="1.1.22.Linear_algebra.html">
+            
+                    
+                    线性代数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.23" data-path="1.1.23.io.html">
+            
+                <a href="1.1.23.io.html">
+            
+                    
+                    IO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="1.2.scipy.html">
+            
+                <a href="1.2.scipy.html">
+            
+                    
+                    SciPy
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="1.2.1.Install.html">
+            
+                <a href="1.2.1.Install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="1.2.2.Module.html">
+            
+                <a href="1.2.2.Module.html">
+            
+                    
+                    模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="1.2.3.constants.html">
+            
+                <a href="1.2.3.constants.html">
+            
+                    
+                    常量模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="1.2.4.Optimize.html">
+            
+                <a href="1.2.4.Optimize.html">
+            
+                    
+                    优化器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="1.3.pandas.html">
+            
+                <a href="1.3.pandas.html">
+            
+                    
+                    Pandas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4.matplotlib.html">
+            
+                <a href="1.4.matplotlib.html">
+            
+                    
+                    matplotlib
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >数组操作</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6570;&#x7EC4;&#x64CD;&#x4F5C;"><a name="&#x6570;&#x7EC4;&#x64CD;&#x4F5C;" class="plugin-anchor" href="#&#x6570;&#x7EC4;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6570;&#x7EC4;&#x64CD;&#x4F5C;</h1>
+<p>NumPy &#x4E2D;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x4E9B;&#x51FD;&#x6570;&#x7528;&#x4E8E;&#x5904;&#x7406;&#x6570;&#x7EC4;&#xFF0C;&#x5927;&#x6982;&#x53EF;&#x5206;&#x4E3A;&#x4EE5;&#x4E0B;&#x51E0;&#x7C7B;&#xFF1A;</p>
+<ul>
+<li><a href="1.1.12.Array_operation.html#&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;">&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;</a></li>
+<li><a href="1.1.12.Array_operation.html#&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;">&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;</a></li>
+<li><a href="1.1.12.Array_operation.html#&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;">&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;</a></li>
+<li><a href="1.1.12.Array_operation.html#&#x8FDE;&#x63A5;&#x6570;&#x7EC4;">&#x8FDE;&#x63A5;&#x6570;&#x7EC4;</a></li>
+<li><a href="1.1.12.Array_operation.html#&#x5206;&#x5272;&#x6570;&#x7EC4;">&#x5206;&#x5272;&#x6570;&#x7EC4;</a></li>
+<li><a href="1.1.12.Array_operation.html#&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;">&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;</a></li>
+</ul>
+<h2 id="&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;"><a name="&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;" class="plugin-anchor" href="#&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x5F62;&#x72B6;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x51FD;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reshape</td>
+<td>&#x4E0D;&#x6539;&#x53D8;&#x6570;&#x636E;&#x7684;&#x6761;&#x4EF6;&#x4E0B;&#x4FEE;&#x6539;&#x5F62;&#x72B6;</td>
+</tr>
+<tr>
+<td>flat</td>
+<td>&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x8FED;&#x4EE3;&#x5668;</td>
+</tr>
+<tr>
+<td>flatten</td>
+<td>&#x8FD4;&#x56DE;&#x4E00;&#x4EFD;&#x6570;&#x7EC4;&#x62F7;&#x8D1D;&#xFF0C;&#x5BF9;&#x62F7;&#x8D1D;&#x6240;&#x505A;&#x7684;&#x4FEE;&#x6539;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x6570;&#x7EC4;</td>
+</tr>
+<tr>
+<td>ravel</td>
+<td>&#x8FD4;&#x56DE;&#x5C55;&#x5F00;&#x6570;&#x7EC4;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpyreshape"><a name="numpyreshape" class="plugin-anchor" href="#numpyreshape"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.reshape</h3>
+<p>numpy.reshape &#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x5728;&#x4E0D;&#x6539;&#x53D8;&#x6570;&#x636E;&#x7684;&#x6761;&#x4EF6;&#x4E0B;&#x4FEE;&#x6539;&#x5F62;&#x72B6;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;<code>numpy.reshape(arr, newshape, order=&apos;C&apos;)</code></p>
+<ul>
+<li>arr&#xFF1A;&#x8981;&#x4FEE;&#x6539;&#x5F62;&#x72B6;&#x7684;&#x6570;&#x7EC4;</li>
+<li>newshape&#xFF1A;&#x6574;&#x6570;&#x6216;&#x8005;&#x6574;&#x6570;&#x6570;&#x7EC4;&#xFF0C;&#x65B0;&#x7684;&#x5F62;&#x72B6;&#x5E94;&#x5F53;&#x517C;&#x5BB9;&#x539F;&#x6709;&#x5F62;&#x72B6;&#x3002;</li>
+<li>order&#xFF1A;&apos;C&apos;--&#x6309;&#x884C;&#xFF1B;&apos;F&apos;--&#x6309;&#x5217;&#xFF1B;&apos;A&apos;--&#x539F;&#x987A;&#x5E8F;&#xFF0C;&apos;K&apos;--&#x5143;&#x7D20;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x51FA;&#x73B0;&#x987A;&#x5E8F;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(8)
+&gt;&gt;&gt; print(a)
+[0 1 2 3 4 5 6 7]
+&gt;&gt;&gt; b = a.reshape(4, 2)
+&gt;&gt;&gt; print(b)
+[[0 1]
+ [2 3]
+ [4 5]
+ [6 7]]
+</code></pre><h3 id="numpyndarrayflat"><a name="numpyndarrayflat" class="plugin-anchor" href="#numpyndarrayflat"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.ndarray.flat</h3>
+<p>numpy.ndarray.flat &#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x8FED;&#x4EE3;&#x5668;&#xFF0C;&#x5B9E;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(9).reshape(3,3)
+&gt;&gt;&gt; for row in a:
+...     print(row)
+...
+[0 1 2]
+[3 4 5]
+[6 7 8]
+&gt;&gt;&gt; for element in a.flat:
+...     print(element)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+</code></pre><h3 id="numpyndarrayflatten"><a name="numpyndarrayflatten" class="plugin-anchor" href="#numpyndarrayflatten"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.ndarray.flatten</h3>
+<p>numpy.ndarray.flatten &#x8FD4;&#x56DE;&#x4E00;&#x4EFD;&#x6570;&#x7EC4;&#x62F7;&#x8D1D;&#xFF0C;&#x5BF9;&#x62F7;&#x8D1D;&#x6240;&#x505A;&#x7684;&#x4FEE;&#x6539;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x6570;&#x7EC4;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>ndarray.flatten(order=&apos;C&apos;)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>order&#xFF1A;&apos;C&apos;--&#x6309;&#x884C;&#xFF0C;&apos;F&apos;--&#x6309;&#x5217;&#xFF0C;&apos;A&apos;--&#x539F;&#x987A;&#x5E8F;&#xFF0C;&apos;K&apos;--&#x5143;&#x7D20;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x987A;&#x5E8F;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(8).reshape(2,4)
+&gt;&gt;&gt; print(a)
+[[0 1 2 3]
+ [4 5 6 7]]
+&gt;&gt;&gt; print(a.flatten())
+[0 1 2 3 4 5 6 7]
+&gt;&gt;&gt; print(a.flatten(order=&apos;F&apos;))
+[0 4 1 5 2 6 3 7]
+</code></pre><h3 id="numpyravel"><a name="numpyravel" class="plugin-anchor" href="#numpyravel"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.ravel</h3>
+<p>numpy.ravel() &#x5C55;&#x5E73;&#x7684;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#xFF0C;&#x987A;&#x5E8F;&#x901A;&#x5E38;&#x662F;&apos;C&#x98CE;&#x683C;&apos;&#xFF0C;&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x6570;&#x7EC4;&#x8BD5;&#x56FE;&#xFF08;view&#xFF0C;&#x6709;&#x70B9;&#x7C7B;&#x4F3C;C/C++&#x5F15;&#x7528;reference&#x7684;&#x610F;&#x5473;&#xFF09;&#xFF0C;&#x4FEE;&#x6539;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x6570;&#x7EC4;&#x3002;</p>
+<p>&#x8BE5;&#x51FD;&#x6570;&#x63A5;&#x6536;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF1A;</p>
+<pre><code>numpy.revel(a, order=&apos;C&apos;)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>order&#xFF1A;&apos;C&apos;--&#x6309;&#x884C;&#xFF0C;&apos;F&apos;--&#x6309;&#x5217;&#xFF0C;&apos;A&apos;--&#x539F;&#x987A;&#x5E8F;&#xFF0C;&apos;K&apos;--&#x5143;&#x7D20;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x987A;&#x5E8F;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(8).reshape(2,4)
+&gt;&gt;&gt; print(a)
+[[0 1 2 3]
+ [4 5 6 7]]
+&gt;&gt;&gt; print(a.ravel())
+[0 1 2 3 4 5 6 7]
+&gt;&gt;&gt; print(a.ravel(order=&apos;F&apos;))
+[0 4 1 5 2 6 3 7]
+</code></pre><h2 id="&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;"><a name="&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;" class="plugin-anchor" href="#&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7FFB;&#x8F6C;&#x6570;&#x7EC4;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x51FD;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>transpose</td>
+<td>&#x5151;&#x6362;&#x6570;&#x7EC4;&#x7684;&#x7EF4;&#x5EA6;</td>
+</tr>
+<tr>
+<td>ndarray.T</td>
+<td>&#x548C;self.transpose()&#x76F8;&#x540C;</td>
+</tr>
+<tr>
+<td>rollaxis</td>
+<td>&#x5148;&#x540E;&#x6EDA;&#x52A8;&#x6307;&#x5B9A;&#x7684;&#x8F74;</td>
+</tr>
+<tr>
+<td>swapaxes</td>
+<td>&#x5BF9;&#x6362;&#x6570;&#x7EC4;&#x7684;&#x4E24;&#x4E2A;&#x8F74;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpytranspose"><a name="numpytranspose" class="plugin-anchor" href="#numpytranspose"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.transpose</h3>
+<p>numpy.transpose &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x5BF9;&#x6362;&#x6570;&#x7EC4;&#x7684;&#x7EF4;&#x5EA6;&#x3002;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.transpose(arr, axes)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8981;&#x64CD;&#x4F5C;&#x7684;&#x6570;&#x7EC4;</li>
+<li>axes&#xFF1A;&#x6574;&#x6570;&#x5217;&#x8868;&#xFF0C;&#x5BF9;&#x5E94;&#x7EF4;&#x5EA6;&#xFF0C;&#x901A;&#x5E38;&#x6240;&#x6709;&#x7EF4;&#x5EA6;&#x90FD;&#x4F1A;&#x5BF9;&#x6362;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(12).reshape(3,4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+&gt;&gt;&gt; print(np.transpose(a))
+[[ 0  4  8]
+ [ 1  5  9]
+ [ 2  6 10]
+ [ 3  7 11]]
+</code></pre><p>numpy.ndarray.T &#x7C7B;&#x4F3C; numpy.transpose&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(12).reshape(3,4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+&gt;&gt;&gt; print(a.T)
+[[ 0  4  8]
+ [ 1  5  9]
+ [ 2  6 10]
+ [ 3  7 11]]
+</code></pre><h3 id="numpyrollaxis"><a name="numpyrollaxis" class="plugin-anchor" href="#numpyrollaxis"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.rollaxis</h3>
+<p>numpy.rollaxis &#x51FD;&#x6570;&#x5411;&#x540E;&#x6EDA;&#x52A8;&#x7279;&#x5B9A;&#x7684;&#x8F74;&#x5230;&#x4E00;&#x4E2A;&#x7279;&#x5B9A;&#x4F4D;&#x7F6E;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.rollaxis(arr, axis, start)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x6570;&#x7EC4;</li>
+<li>axis&#xFF1A;&#x8981;&#x5411;&#x540E;&#x6EDA;&#x52A8;&#x7684;&#x8F74;&#xFF0C;&#x5176;&#x5B83;&#x8F74;&#x7684;&#x76F8;&#x5BF9;&#x4F4D;&#x7F6E;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;</li>
+<li>start&#xFF1A;&#x9ED8;&#x8BA4;&#x4E3A;&#x96F6;&#xFF0C;&#x8868;&#x793A;&#x5B8C;&#x6574;&#x7684;&#x6EDA;&#x52A8;&#x3002;&#x4F1A;&#x6EDA;&#x52A8;&#x5230;&#x7279;&#x5B9A;&#x4F4D;&#x7F6E;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(8).reshape(2, 2, 2)
+&gt;&gt;&gt; print(a)
+[[[0 1]
+  [2 3]]
+
+ [[4 5]
+  [6 7]]]
+&gt;&gt;&gt; print(np.where(a==6))
+(array([1]), array([1]), array([0]))
+&gt;&gt;&gt; print(a[1,1,0])
+6
+&gt;&gt;&gt; b = np.rollaxis(a, 2, 0)
+&gt;&gt;&gt; print(b)
+[[[0 2]
+  [4 6]]
+
+ [[1 3]
+  [5 7]]]
+&gt;&gt;&gt; print(np.where(b==6))
+(array([0]), array([1]), array([1]))
+&gt;&gt;&gt; c = np.rollaxis(a,2,1)
+&gt;&gt;&gt; print(c)
+[[[0 2]
+  [1 3]]
+
+ [[4 6]
+  [5 7]]]
+&gt;&gt;&gt; print(np.where(c==6))
+(array([1]), array([0]), array([1]))
+</code></pre><h3 id="numpyswapaxes"><a name="numpyswapaxes" class="plugin-anchor" href="#numpyswapaxes"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.swapaxes</h3>
+<p>numpy.swapaxes &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x4EA4;&#x6362;&#x6570;&#x7EC4;&#x7684;&#x4E24;&#x4E2A;&#x8F74;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.swapaxes(arr, axis1, axis2)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x7684;&#x6570;&#x7EC4;</li>
+<li>axis1&#xFF1A;&#x5BF9;&#x5E94;&#x7B2C;&#x4E00;&#x4E2A;&#x8F74;&#x7684;&#x6574;&#x6570;</li>
+<li>axis2&#xFF1A;&#x5BF9;&#x5E94;&#x7B2C;&#x4E8C;&#x4E2A;&#x8F74;&#x7684;&#x6574;&#x6570;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(8).reshape(2,2,2)
+&gt;&gt;&gt; print(a)
+[[[0 1]
+  [2 3]]
+
+ [[4 5]
+  [6 7]]]
+&gt;&gt;&gt; print(np.swapaxes(a,2,0))
+[[[0 4]
+  [2 6]]
+
+ [[1 5]
+  [3 7]]]
+</code></pre><h2 id="&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;"><a name="&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;" class="plugin-anchor" href="#&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4FEE;&#x6539;&#x6570;&#x7EC4;&#x7EF4;&#x5EA6;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x7EF4;&#x5EA6;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>broadcast</td>
+<td>&#x4EA7;&#x751F;&#x6A21;&#x4EFF;&#x5E7F;&#x64AD;&#x7684;&#x5BF9;&#x8C61;</td>
+</tr>
+<tr>
+<td>broadcast_to</td>
+<td>&#x5C06;&#x6570;&#x7EC4;&#x5E7F;&#x64AD;&#x5230;&#x65B0;&#x5F62;&#x72B6;</td>
+</tr>
+<tr>
+<td>expand_dims</td>
+<td>&#x6269;&#x5C55;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;</td>
+</tr>
+<tr>
+<td>squeeze</td>
+<td>&#x4ECE;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x4E2D;&#x9610;&#x8FF0;&#x4E00;&#x7EF4;&#x6761;&#x76EE;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpybroadcast"><a name="numpybroadcast" class="plugin-anchor" href="#numpybroadcast"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.broadcast</h3>
+<p>numpy.broadcast &#x7528;&#x4E8E;&#x6A21;&#x4EFF;&#x5E7F;&#x64AD;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5B83;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x8BE5;&#x5BF9;&#x8C61;&#x5C01;&#x88C5;&#x4E86;&#x5C06;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5E7F;&#x64AD;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x7ED3;&#x679C;&#x3002;</p>
+<p>&#x8BE5;&#x51FD;&#x6570;&#x4F7F;&#x7528;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4F5C;&#x4E3A;&#x8F93;&#x5165;&#x53C2;&#x6570;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;&#xFF1A;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; x = np.array([[1], [2], [3]])
+&gt;&gt;&gt; y = np.array([4, 5, 6])
+&gt;&gt;&gt; b = np.broadcast(x, y)
+&gt;&gt;&gt; r, c = b.iters
+&gt;&gt;&gt; print(next(r), next(c))
+1 4
+&gt;&gt;&gt; print(next(r), next(c))
+1 5
+&gt;&gt;&gt; print(b.shape)
+(3, 3)
+&gt;&gt;&gt; b = np.broadcast(x, y)
+&gt;&gt;&gt; c = np.empty(b.shape)
+&gt;&gt;&gt; print(c.shape)
+(3, 3)
+&gt;&gt;&gt; c.flat = [u + v for (u, v) in b]
+&gt;&gt;&gt; print(c)
+[[5. 6. 7.]
+ [6. 7. 8.]
+ [7. 8. 9.]]
+&gt;&gt;&gt; print(x + y)
+[[5 6 7]
+ [6 7 8]
+ [7 8 9]]
+</code></pre><h3 id="numpybroadcastto"><a name="numpybroadcastto" class="plugin-anchor" href="#numpybroadcastto"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.broadcast_to</h3>
+<p>numpy.broadcast_to &#x51FD;&#x6570;&#x5C06;&#x6570;&#x7EC4;&#x5E7F;&#x64AD;&#x5230;&#x65B0;&#x5F62;&#x72B6;&#x3002;&#x5B83;&#x5728;&#x539F;&#x59CB;&#x6570;&#x7EC4;&#x4E0A;&#x8FD4;&#x56DE;&#x53EA;&#x8BFB;&#x89C6;&#x56FE;&#x3002;&#x5B83;&#x901A;&#x5E38;&#x4E0D;&#x8FDE;&#x7EED;&#x3002;&#x5982;&#x679C;&#x65B0;&#x5F62;&#x72B6;&#x4E0D;&#x7B26;&#x5408; NumPy &#x7684;&#x5E7F;&#x64AD;&#x89C4;&#x5219;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x53EF;&#x80FD;&#x4F1A;&#x629B;&#x51FA; ValueError&#x3002;</p>
+<pre><code>numpy.broadcast_to(array, shape, subok)
+</code></pre><pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(4).reshape(1, 4)
+&gt;&gt;&gt; print(a)
+[[0 1 2 3]]
+&gt;&gt;&gt; print(np.broadcast_to(a,(4,4)))
+[[0 1 2 3]
+ [0 1 2 3]
+ [0 1 2 3]
+ [0 1 2 3]]
+</code></pre><h3 id="numpyexpanddims"><a name="numpyexpanddims" class="plugin-anchor" href="#numpyexpanddims"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.expand_dims</h3>
+<p>numpy.expand_dims &#x51FD;&#x6570;&#x901A;&#x8FC7;&#x5728;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x63D2;&#x5165;&#x65B0;&#x7684;&#x8F74;&#x6765;&#x6269;&#x5C55;&#x6570;&#x7EC4;&#x5F62;&#x72B6;&#xFF0C;&#x51FD;&#x6570;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.expand_dims(arr, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;</li>
+<li>axis&#xFF1A;&#x65B0;&#x8F74;&#x63D2;&#x5165;&#x7684;&#x4F4D;&#x7F6E;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; x = np.array(([1, 2], [3, 4]))
+&gt;&gt;&gt; print(x)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; y = np.expand_dims(x, axis = 0)
+&gt;&gt;&gt; print(y)
+[[[1 2]
+  [3 4]]]
+&gt;&gt;&gt; print(x.shape, y.shape)
+(2, 2) (1, 2, 2)
+&gt;&gt;&gt; y = np.expand_dims(x, axis = 1)
+&gt;&gt;&gt; print(y)
+[[[1 2]]
+
+ [[3 4]]]
+&gt;&gt;&gt; print(x.ndim, y.ndim)
+2 3
+&gt;&gt;&gt; print(x.shape, y.shape)
+(2, 2) (2, 1, 2)
+</code></pre><h3 id="numpysqueeze"><a name="numpysqueeze" class="plugin-anchor" href="#numpysqueeze"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.squeeze</h3>
+<p>numpy.suqeeze &#x51FD;&#x6570;&#x8471;&#x7ED9;&#x5B9A;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x72B6;&#x4E2D;&#x5220;&#x9664;&#x4E00;&#x7EF4;&#x7684;&#x6761;&#x76EE;&#xFF0C;&#x51FD;&#x6570;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.squeeze(arr, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;</li>
+<li>axis&#xFF1A;&#x6574;&#x6570;&#x6216;&#x6574;&#x6570;&#x5143;&#x7EC4;&#xFF0C;&#x7528;&#x4E8E;&#x9009;&#x62E9;&#x5F62;&#x72B6;&#x4E2D;&#x4E00;&#x7EF4;&#x6761;&#x76EE;&#x7684;&#x5B50;&#x96C6;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; x = np.arange(9).reshape(1, 3, 3)
+&gt;&gt;&gt; print(x)
+[[[0 1 2]
+  [3 4 5]
+  [6 7 8]]]
+&gt;&gt;&gt; y = np.squeeze(x)
+&gt;&gt;&gt; print(y)
+[[0 1 2]
+ [3 4 5]
+ [6 7 8]]
+&gt;&gt;&gt; print(x.shape, y.shape)
+(1, 3, 3) (3, 3)
+</code></pre><h2 id="&#x8FDE;&#x63A5;&#x6570;&#x7EC4;"><a name="&#x8FDE;&#x63A5;&#x6570;&#x7EC4;" class="plugin-anchor" href="#&#x8FDE;&#x63A5;&#x6570;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FDE;&#x63A5;&#x6570;&#x7EC4;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x51FD;&#x6570;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>concatenate</td>
+<td>&#x8FDE;&#x63A5;&#x6CBF;&#x73B0;&#x6709;&#x8F74;&#x7684;&#x6570;&#x7EC4;&#x5E8F;&#x5217;</td>
+</tr>
+<tr>
+<td>stack</td>
+<td>&#x6CBF;&#x7740;&#x65B0;&#x7684;&#x8F74;&#x52A0;&#x5165;&#x4E00;&#x7CFB;&#x5217;&#x6570;&#x7EC4;&#x3002;</td>
+</tr>
+<tr>
+<td>hstack</td>
+<td>&#x6C34;&#x5E73;&#x5806;&#x53E0;&#x5E8F;&#x5217;&#x4E2D;&#x7684;&#x6570;&#x7EC4;&#xFF08;&#x5217;&#x65B9;&#x5411;&#xFF09;</td>
+</tr>
+<tr>
+<td>vstack</td>
+<td>&#x7AD6;&#x76F4;&#x5806;&#x53E0;&#x5E8F;&#x5217;&#x4E2D;&#x7684;&#x6570;&#x7EC4;&#xFF08;&#x884C;&#x65B9;&#x5411;&#xFF09;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpyconcatenate"><a name="numpyconcatenate" class="plugin-anchor" href="#numpyconcatenate"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.concatenate</h3>
+<p>numpy.concatenate &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x6CBF;&#x6307;&#x5B9A;&#x8F74;&#x8FDE;&#x63A5;&#x76F8;&#x540C;&#x5F62;&#x72B6;&#x7684;&#x4E24;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x6570;&#x7EC4;&#x3002;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.concatenate((a1, a2, ...), axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>a1, a2, ... &#xFF1A;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x6570;&#x7EC4;</li>
+<li>axis&#xFF1A;&#x6CBF;&#x7740;&#x5B83;&#x8FDE;&#x63A5;&#x6570;&#x7EC4;&#x7684;&#x8F74;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;0</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1,2], [3,4]])
+&gt;&gt;&gt; print(a)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; b = np.array([[5,6], [7,8]])
+&gt;&gt;&gt; print(b)
+[[5 6]
+ [7 8]]
+&gt;&gt;&gt; print(np.concatenate((a, b)))
+[[1 2]
+ [3 4]
+ [5 6]
+ [7 8]]
+&gt;&gt;&gt; print(np.concatenate((a, b), axis = 1))
+[[1 2 5 6]
+ [3 4 7 8]]
+</code></pre><h3 id="numpystack"><a name="numpystack" class="plugin-anchor" href="#numpystack"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.stack</h3>
+<p>numpy.stack &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x6CBF;&#x65B0;&#x8F74;&#x8FDE;&#x63A5;&#x6570;&#x7EC4;&#x5E8F;&#x5217;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.stack(arrays, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arrays&#xFF1A; &#x76F8;&#x540C;&#x5F62;&#x72B6;&#x7684;&#x6570;&#x7EC4;&#x5E8F;&#x5217;</li>
+<li>axis&#xFF1A;&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x8F74;&#xFF0C;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x6CBF;&#x7740;&#x5B83;&#x6765;&#x5806;&#x53E0;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2], [3, 4]])
+&gt;&gt;&gt; print(a)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; b = np.array([[5, 6], [7, 8]])
+&gt;&gt;&gt; print(b)
+[[5 6]
+ [7 8]]
+&gt;&gt;&gt; print(np.stack((a, b), 0))
+[[[1 2]
+  [3 4]]
+
+ [[5 6]
+  [7 8]]]
+&gt;&gt;&gt; print(np.stack((a, b), 1))
+[[[1 2]
+  [5 6]]
+
+ [[3 4]
+  [7 8]]]
+</code></pre><h3 id="numpyhstack"><a name="numpyhstack" class="plugin-anchor" href="#numpyhstack"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.hstack</h3>
+<p>numpy.hstack &#x662F; numpy.stack &#x51FD;&#x6570;&#x7684;&#x53D8;&#x4F53;&#xFF0C;&#x5B83;&#x901A;&#x8FC7;&#x6C34;&#x5E73;&#x5806;&#x53E0;&#x6765;&#x751F;&#x6210;&#x6570;&#x7EC4;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2], [3, 4]])
+&gt;&gt;&gt; b = np.array([[5, 6], [7, 8]])
+&gt;&gt;&gt; c = np.hstack((a, b))
+&gt;&gt;&gt; print(c)
+[[1 2 5 6]
+ [3 4 7 8]]
+</code></pre><h3 id="numpyvstack"><a name="numpyvstack" class="plugin-anchor" href="#numpyvstack"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.vstack</h3>
+<p>numpy.vstack &#x662F; numpy.stack &#x51FD;&#x6570;&#x7684;&#x53D8;&#x4F53;&#xFF0C;&#x5B83;&#x901A;&#x8FC7;&#x5782;&#x76F4;&#x5806;&#x53E0;&#x6765;&#x751F;&#x6210;&#x6570;&#x7EC4;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array(([1, 2], [3, 4]))
+&gt;&gt;&gt; print(a)
+[[1 2]
+ [3 4]]
+&gt;&gt;&gt; b = np.array(([5, 6], [7, 8]))
+&gt;&gt;&gt; print(b)
+[[5 6]
+ [7 8]]
+&gt;&gt;&gt; c = np.vstack((a, b))
+&gt;&gt;&gt; print(c)
+[[1 2]
+ [3 4]
+ [5 6]
+ [7 8]]
+</code></pre><h2 id="&#x5206;&#x5272;&#x6570;&#x7EC4;"><a name="&#x5206;&#x5272;&#x6570;&#x7EC4;" class="plugin-anchor" href="#&#x5206;&#x5272;&#x6570;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5206;&#x5272;&#x6570;&#x7EC4;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x51FD;&#x6570;</th>
+<th>&#x6570;&#x7EC4;&#x53CA;&#x64CD;&#x4F5C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>split</td>
+<td>&#x5C06;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5206;&#x5272;&#x4E3A;&#x591A;&#x4E2A;&#x6570;&#x7EC4;</td>
+</tr>
+<tr>
+<td>hsplit</td>
+<td>&#x5C06;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x6C34;&#x5E73;&#x5206;&#x5272;&#x4E3A;&#x591A;&#x4E2A;&#x5B50;&#x6570;&#x7EC4;&#xFF08;&#x6309;&#x5217;&#xFF09;</td>
+</tr>
+<tr>
+<td>vsplit</td>
+<td>&#x5C06;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x5782;&#x76F4;&#x5206;&#x5272;&#x4E3A;&#x591A;&#x4E2A;&#x5B50;&#x6570;&#x7EC4;&#xFF08;&#x6309;&#x884C;&#xFF09;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpysplit"><a name="numpysplit" class="plugin-anchor" href="#numpysplit"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.split</h3>
+<p>numpy.split &#x51FD;&#x6570;&#x6CBF;&#x7279;&#x5B9A;&#x7684;&#x8F74;&#x5C06;&#x6570;&#x7EC4;&#xFF0C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>numpy.split(ary, indices_or_sections, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>ary&#xFF1A;&#x88AB;&#x5206;&#x5272;&#x7684;&#x6570;&#x7EC4;</li>
+<li>indices_or_sections&#xFF1A;&#x5982;&#x679C;&#x662F;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#xFF0C;&#x5C31;&#x7528;&#x8BE5;&#x6570;&#x5E73;&#x5747;&#x5207;&#x5206;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x4E3A;&#x6CBF;&#x8F74;&#x5207;&#x5206;&#x7684;&#x4F4D;&#x7F6E;&#xFF08;&#x5DE6;&#x5F00;&#x53F3;&#x95ED;&#xFF09;</li>
+<li>axis&#xFF1A;&#x8BBE;&#x7F6E;&#x6CBF;&#x7740;&#x54EA;&#x4E2A;&#x65B9;&#x5411;&#x8FDB;&#x884C;&#x5207;&#x5206;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;0&#xFF0C;&#x6A2A;&#x5411;&#x5207;&#x5206;&#xFF0C;&#x5373;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x3002;&#x4E3A;1&#x65F6;&#xFF0C;&#x7EB5;&#x5411;&#x5207;&#x5206;&#xFF0C;&#x5373;&#x7AD6;&#x76F4;&#x65B9;&#x5411;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(9)
+&gt;&gt;&gt; print(a)
+[0 1 2 3 4 5 6 7 8]
+&gt;&gt;&gt; b = np.split(a,3)
+&gt;&gt;&gt; print(b)
+[array([0, 1, 2]), array([3, 4, 5]), array([6, 7, 8])]
+&gt;&gt;&gt; c = np.split(a,[4, 7])
+&gt;&gt;&gt; print(c)
+[array([0, 1, 2, 3]), array([4, 5, 6]), array([7, 8])]
+</code></pre><p>asix &#x4E3A;0&#x65F6;&#x5728;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x5206;&#x5272;&#xFF0C;axis&#x4E3A;1&#x65F6;&#x5728;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x5206;&#x5272;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(16).reshape(4, 4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+&gt;&gt;&gt; b = np.split(a, 2)
+&gt;&gt;&gt; print(b)
+[array([[0, 1, 2, 3],
+       [4, 5, 6, 7]]), array([[ 8,  9, 10, 11],
+       [12, 13, 14, 15]])]
+&gt;&gt;&gt; c = np.split(a, 2, 1)
+&gt;&gt;&gt; print(c)
+[array([[ 0,  1],
+       [ 4,  5],
+       [ 8,  9],
+       [12, 13]]), array([[ 2,  3],
+       [ 6,  7],
+       [10, 11],
+       [14, 15]])]
+&gt;&gt;&gt; c = np.hsplit(a, 2)
+&gt;&gt;&gt; print(c)
+[array([[ 0,  1],
+       [ 4,  5],
+       [ 8,  9],
+       [12, 13]]), array([[ 2,  3],
+       [ 6,  7],
+       [10, 11],
+       [14, 15]])]
+</code></pre><h3 id="numpyhsplit"><a name="numpyhsplit" class="plugin-anchor" href="#numpyhsplit"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.hsplit</h3>
+<p>numpy.hsplit &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x6C34;&#x5E73;&#x5206;&#x5272;&#x6570;&#x7EC4;&#xFF0C;&#x901A;&#x8FC7;&#x6307;&#x5B9A;&#x8981;&#x8FD4;&#x56DE;&#x7684;&#x76F8;&#x540C;&#x5F62;&#x72B6;&#x7684;&#x6570;&#x7EC4;&#x6570;&#x91CF;&#x6765;&#x62C6;&#x5206;&#x539F;&#x6570;&#x7EC4;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; harr = np.floor(10 * np.random.random((2, 6)))
+&gt;&gt;&gt; print(harr)
+[[8. 9. 2. 4. 0. 8.]
+ [3. 4. 1. 7. 2. 6.]]
+&gt;&gt;&gt; print(np.hsplit(harr, 3))
+[array([[8., 9.],
+       [3., 4.]]), array([[2., 4.],
+       [1., 7.]]), array([[0., 8.],
+       [2., 6.]])]
+</code></pre><h3 id="numpyvsplit"><a name="numpyvsplit" class="plugin-anchor" href="#numpyvsplit"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.vsplit</h3>
+<p>numpy.vsplit &#x6CBF;&#x7740;&#x5782;&#x76F4;&#x8F74;&#x5206;&#x5272;&#xFF0C;&#x5176;&#x5206;&#x5272;&#x65B9;&#x5F0F;&#x4E0E; hsplit &#x7528;&#x6CD5;&#x76F8;&#x540C;&#x3002;</p>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(16).reshape(4,4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+&gt;&gt;&gt; b = np.vsplit(a, 2)
+&gt;&gt;&gt; print(b)
+[array([[0, 1, 2, 3],
+       [4, 5, 6, 7]]), array([[ 8,  9, 10, 11],
+       [12, 13, 14, 15]])]
+</code></pre><h2 id="&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;"><a name="&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;" class="plugin-anchor" href="#&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x7684;&#x6DFB;&#x52A0;&#x4E0E;&#x5220;&#x9664;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x51FD;&#x6570;</th>
+<th>&#x5143;&#x7D20;&#x53CA;&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>resize</td>
+<td>&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x5F62;&#x72B6;&#x7684;&#x65B0;&#x6570;&#x7EC4;</td>
+</tr>
+<tr>
+<td>append</td>
+<td>&#x5C06;&#x503C;&#x5929;&#x4EF7;&#x5200;&#x6570;&#x7EC4;&#x672B;&#x5C3E;</td>
+</tr>
+<tr>
+<td>insert</td>
+<td>&#x6CBF;&#x6307;&#x5B9A;&#x8F74;&#x5C06;&#x503C;&#x63D2;&#x5165;&#x5230;&#x6307;&#x5B9A;&#x4E0B;&#x6807;&#x4E4B;&#x524D;</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>&#x5220;&#x6389;&#x67D0;&#x4E2A;&#x8F74;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x5220;&#x9664;&#x540E;&#x7684;&#x65B0;&#x6570;&#x7EC4;</td>
+</tr>
+<tr>
+<td>unique</td>
+<td>&#x67E5;&#x627E;&#x6570;&#x7EC4;&#x5185;&#x7684;&#x552F;&#x4E00;&#x5143;&#x7D20;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="numpyresize"><a name="numpyresize" class="plugin-anchor" href="#numpyresize"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.resize</h3>
+<p>numpy.resize &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x5927;&#x5C0F;&#x7684;&#x65B0;&#x6570;&#x7EC4;&#x3002;
+&#x5982;&#x679C;&#x65B0;&#x6570;&#x7EC4;&#x5927;&#x5C0F;&#x5927;&#x4E8E;&#x539F;&#x59CB;&#x5927;&#x5C0F;&#xFF0C;&#x5219;&#x5305;&#x542B;&#x539F;&#x59CB;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x7684;&#x526F;&#x672C;&#x3002;</p>
+<pre><code>numpy.resize(arr, shape)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8981;&#x4FEE;&#x6539;&#x5927;&#x5C0F;&#x7684;&#x6570;&#x7EC4;</li>
+<li>shape&#xFF1A;&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#x7684;&#x65B0;&#x5F62;&#x72B6;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
+&gt;&gt;&gt; print(a)
+[[1 2 3]
+ [4 5 6]]
+&gt;&gt;&gt; print(a.shape)
+(2, 3)
+&gt;&gt;&gt; b = np.resize(a, (3, 2))
+&gt;&gt;&gt; print(b)
+[[1 2]
+ [3 4]
+ [5 6]]
+&gt;&gt;&gt; print(b.shape)
+(3, 2)
+&gt;&gt;&gt; b = np.resize(a, (3, 3))
+&gt;&gt;&gt; print(b)
+[[1 2 3]
+ [4 5 6]
+ [1 2 3]]
+</code></pre><h3 id="numpyappend"><a name="numpyappend" class="plugin-anchor" href="#numpyappend"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.append</h3>
+<p>numpy.append &#x51FD;&#x6570;&#x5728;&#x6570;&#x7EC4;&#x7684;&#x672B;&#x5C3E;&#x6DFB;&#x52A0;&#x503C;&#x3002;&#x8FFD;&#x52A0;&#x64CD;&#x4F5C;&#x4F1A;&#x5206;&#x914D;&#x6574;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x5E76;&#x628A;&#x539F;&#x6765;&#x7684;&#x6570;&#x7EC4;&#x590D;&#x5236;&#x5230;&#x65B0;&#x6570;&#x7EC4;&#x4E2D;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x7684;&#x7EF4;&#x5EA6;&#x5FC5;&#x987B;&#x5339;&#x914D;&#x5426;&#x5219;&#x5C06;&#x751F;&#x6210; ValueError&#x3002;</p>
+<p>append &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x7684;&#x59CB;&#x7EC8;&#x662F;&#x4E00;&#x4E2A;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#x3002;</p>
+<pre><code>append.append(arr, values, axis=None)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;</li>
+<li>values&#xFF1A;&#x8981;&#x5411; arr &#x6DFB;&#x52A0;&#x7684;&#x503C;&#xFF0C;&#x9700;&#x8981;&#x548C; arr &#x5F62;&#x72B6;&#x76F8;&#x540C;&#xFF08;&#x9664;&#x4E86;&#x8981;&#x6DFB;&#x52A0;&#x7684;&#x8F74;&#xFF09;</li>
+<li>axis&#xFF1A;&#x9ED8;&#x8BA4;&#x4E3A; None&#x3002;&#x5F53; axis &#x65E0;&#x5B9A;&#x4E49;&#x65F6;&#xFF0C;&#x662F;&#x6A2A;&#x5411;&#x52A0;&#x6210;&#xFF0C;&#x8FD4;&#x56DE;&#x603B;&#x662F;&#x4E3A;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;&#xFF01;&#x5F53; axis &#x6709;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5206;&#x522B;&#x4E3A;0&#x548C;1&#x7684;&#x65F6;&#x5019;&#x3002;&#x5F53; axis &#x6709;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5206;&#x522B;&#x4E3A; 0 &#x548C; 1 &#x7684;&#x65F6;&#x5019;&#xFF08;&#x5217;&#x6570;&#x8981;&#x76F8;&#x540C;&#xFF09;&#x3002;&#x5F53; axis &#x4E3A; 1 &#x65F6;&#xFF0C;&#x6570;&#x7EC4;&#x662F;&#x52A0;&#x5728;&#x5DE6;&#x8FB9;&#xFF08;&#x5217;&#x6570;&#x8981;&#x76F8;&#x540C;&#xFF09;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1, 2, 3], [4, 5, 6]])
+&gt;&gt;&gt; print(a)
+[[1 2 3]
+ [4 5 6]]
+&gt;&gt;&gt; print(np.append(a, [7, 8, 9]))
+[1 2 3 4 5 6 7 8 9]
+&gt;&gt;&gt; print(np.append(a, [[7,8,9]], axis = 0))
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+&gt;&gt;&gt; print(np.append(a, [[5, 5, 5], [7, 8, 9]], axis = 1))
+[[1 2 3 5 5 5]
+ [4 5 6 7 8 9]]
+</code></pre><h3 id="numpyinsert"><a name="numpyinsert" class="plugin-anchor" href="#numpyinsert"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.insert</h3>
+<p>numpy.insert &#x51FD;&#x6570;&#x5728;&#x7ED9;&#x5B9A;&#x7D22;&#x5F15;&#x4E4B;&#x524D;&#xFF0C;&#x6CBF;&#x7ED9;&#x5B9A;&#x8F74;&#x5728;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4E2D;&#x63D2;&#x5165;&#x503C;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x503C;&#x7684;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E3A;&#x8981;&#x63D2;&#x5165;&#xFF0C;&#x5219;&#x5B83;&#x4E0E;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4E0D;&#x540C;&#x3002;&#x63D2;&#x5165;&#x6CA1;&#x6709;&#x539F;&#x5730;&#x7684;&#xFF0C;&#x51FD;&#x6570;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x65B0;&#x6570;&#x7EC4;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x672A;&#x63D0;&#x4F9B;&#x8F74;&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4F1A;&#x88AB;&#x5C55;&#x5F00;&#x3002;</p>
+<pre><code>numpy.insert(arr, obj, values, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;</li>
+<li>obj&#xFF1A;&#x5728;&#x5176;&#x4E4B;&#x524D;&#x63D2;&#x5165;&#x503C;&#x7684;&#x7D22;&#x5F15;</li>
+<li>values&#xFF1A;&#x8981;&#x63D2;&#x5165;&#x7684;&#x503C;</li>
+<li>axis&#xFF1A;&#x6CBF;&#x7740;&#x4ED6;&#x63D2;&#x5165;&#x7684;&#x8F74;&#xFF0C;&#x5982;&#x679C;&#x672A;&#x63D0;&#x4F9B;&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4F1A;&#x88AB;&#x5C55;&#x5F00;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([[1,2], [3,4], [5,6]])
+&gt;&gt;&gt; print(a)
+[[1 2]
+ [3 4]
+ [5 6]]
+&gt;&gt;&gt; print(np.insert(a,3,[11,12]))
+[ 1  2  3 11 12  4  5  6]
+&gt;&gt;&gt; print(np.insert(a,1,[11],axis = 0))
+[[ 1  2]
+ [11 11]
+ [ 3  4]
+ [ 5  6]]
+&gt;&gt;&gt; print(np.insert(a,1,11,axis = 1))
+[[ 1 11  2]
+ [ 3 11  4]
+ [ 5 11  6]]
+</code></pre><h3 id="numpydelete"><a name="numpydelete" class="plugin-anchor" href="#numpydelete"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.delete</h3>
+<p>numpy.delete &#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x4ECE;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4E2D;&#x5220;&#x9664;&#x6307;&#x5B9A;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x65B0;&#x6570;&#x7EC4;&#x3002;&#x4E0E; insert() &#x51FD;&#x6570;&#x7684;&#x60C5;&#x51B5;&#x4E00;&#x6837;&#xFF0C;&#x5982;&#x679C;&#x672A;&#x63D0;&#x4F9B;&#x8F74;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x5C06;&#x5C55;&#x5F00;&#x3002;</p>
+<pre><code>numpy.delete(arr, obj, axis)
+</code></pre><p>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;</li>
+<li>obj&#xFF1A;&#x53EF;&#x4EE5;&#x88AB;&#x5207;&#x7247;&#xFF0C;&#x6574;&#x6570;&#x6216;&#x6574;&#x6570;&#x6570;&#x7EC4;&#xFF0C;&#x8868;&#x660E;&#x8981;&#x4ECE;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x5220;&#x9664;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x3002;</li>
+<li>axis&#xFF1A;&#x6CBF;&#x7740;&#x5B83;&#x5220;&#x9664;&#x7ED9;&#x5B9A;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x8F74;&#xFF0C;&#x5982;&#x679C;&#x672A;&#x63D0;&#x4F9B;&#xFF0C;&#x5219;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4F1A;&#x88AB;&#x5C55;&#x5F00;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.arange(12).reshape(3, 4)
+&gt;&gt;&gt; print(a)
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+&gt;&gt;&gt; print(np.delete(a,5))
+[ 0  1  2  3  4  6  7  8  9 10 11]
+&gt;&gt;&gt; print(np.delete(a,1,axis = 1))
+[[ 0  2  3]
+ [ 4  6  7]
+ [ 8 10 11]]
+&gt;&gt;&gt; a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+&gt;&gt;&gt; print(np.delete(a, np.s_[::2]))
+[ 2  4  6  8 10]
+</code></pre><h3 id="numpyunique"><a name="numpyunique" class="plugin-anchor" href="#numpyunique"><i class="fa fa-link" aria-hidden="true"></i></a>numpy.unique</h3>
+<p>numpy.unique &#x51FD;&#x6570;&#x7528;&#x4E8E;&#x53BB;&#x9664;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x91CD;&#x590D;&#x5143;&#x7D20;&#x3002;</p>
+<pre><code>numpy.unique(arr, return_index, return_inverse, return_counts)
+</code></pre><p>&#x53C2;&#x6570;&#xFF1A;</p>
+<ul>
+<li>arr&#xFF1A;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x662F;&#x4E00;&#x7EF4;&#x6570;&#x7EC4;</li>
+<li>return_index&#xFF1A;&#x5982;&#x679C;&#x4E3A; true&#xFF0C;&#x8FD4;&#x56DE;&#x65B0;&#x5217;&#x8868;&#x5143;&#x7D20;&#x5728;&#x65E7;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0B;&#x6807;&#xFF09;&#xFF0C;&#x5E76;&#x4EE5;&#x5217;&#x8868;&#x5F62;&#x5F0F;&#x50A8;&#x5B58;</li>
+<li>return_inverse&#xFF1A;&#x5982;&#x679C;&#x4E3A; true&#xFF0C;&#x8FD4;&#x56DE;&#x65E7;&#x5217;&#x8868;&#x5143;&#x7D20;&#x5728;&#x65B0;&#x5217;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#xFF08;&#x4E0B;&#x6807;&#xFF09;&#xFF0C;&#x5E76;&#x4EE5;&#x5217;&#x8868;&#x5F62;&#x5F0F;&#x50A8;&#x5B58;</li>
+<li>return_counts&#xFF1A;&#x5982;&#x679C;&#x4E3A; true&#xFF0C;&#x8FD4;&#x56DE;&#x53BB;&#x91CD;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x5728;&#x539F;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x51FA;&#x73B0;&#x6B21;&#x6570;&#x3002;</li>
+</ul>
+<pre><code>&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; a = np.array([5,2,6,2,7,5,6,8,2,9])
+&gt;&gt;&gt; print(a)
+[5 2 6 2 7 5 6 8 2 9]
+&gt;&gt;&gt; u = np.unique(a)
+&gt;&gt;&gt; print(u)
+[2 5 6 7 8 9]
+&gt;&gt;&gt; u, indices = np.unique(a, return_index = True)
+&gt;&gt;&gt; print(indices)
+[1 0 2 4 7 9]
+&gt;&gt;&gt; print(a)
+[5 2 6 2 7 5 6 8 2 9]
+&gt;&gt;&gt; u, indices = np.unique(a, return_inverse = True)
+&gt;&gt;&gt; print(u)
+[2 5 6 7 8 9]
+&gt;&gt;&gt; print(indices)
+[1 0 2 0 3 1 2 4 0 5]
+&gt;&gt;&gt; print(u[indices])
+[5 2 6 2 7 5 6 8 2 9]
+&gt;&gt;&gt; u, indices = np.unique(a, return_counts = True)
+&gt;&gt;&gt; print(u)
+[2 5 6 7 8 9]
+&gt;&gt;&gt; print(indices)
+[3 2 2 1 1 1]
+</code></pre>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.1.11.Iterative_array.html" class="navigation navigation-prev " aria-label="Previous page: 迭代数组">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.1.13.Bit_operation.html" class="navigation navigation-next " aria-label="Next page: 位运算">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"数组操作","level":"1.2.1.12","depth":3,"next":{"title":"位运算","level":"1.2.1.13","depth":3,"path":"chapter_1/1.1.13.Bit_operation.md","ref":"chapter_1/1.1.13.Bit_operation.md","articles":[]},"previous":{"title":"迭代数组","level":"1.2.1.11","depth":3,"path":"chapter_1/1.1.11.Iterative_array.md","ref":"chapter_1/1.1.11.Iterative_array.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","expandable-chapters","search-plus","github","terminal","anchors","edit-link","image-captions","image-wrapper","popup","katex","custom-favicon"],"root":".","styles":{"website":"assets/css/WebStyle.css","pdf":"assets/css/PdfStyle.css","mobi":"assets/css/MobiStyle.css","epub":"assets/css/EpubStyle.css"},"pluginsConfig":{"image-wrapper":{},"github":{"url":"https://github.com/renkeju/quant"},"popup":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"images/favicon.png","custom-favicon":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"edit-link":{"label":"编辑这个页面","base":"https://github.com/renkeju/quant/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{},"search-plus":{},"image-captions":{"caption":"图 _PAGE_LEVEL_ - _CAPTION_ ","images":{"1.1.1":{"skip":true},"1.1.2":{"skip":true}},"variable_name":"_pictures"}},"theme":"default","author":"Ren keju","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"chapter_1/1.1.2.ndarray.html#fig1.2.1.2.1","level":"1.2.1.2","list_caption":"Figure: ndarray","alt":"ndarray","nro":1,"url":"/images/chapter_1/1.1.3.ndarray.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"ndarray","attributes":{},"skip":false,"key":"1.2.1.2.1"},{"backlink":"chapter_1/1.1.10.Broadcast.html#fig1.2.1.10.1","level":"1.2.1.10","list_caption":"Figure: broadcast","alt":"broadcast","nro":2,"url":"/images/chapter_1/1.1.10.numpy_array_broadcast.gif","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"broadcast","attributes":{},"skip":false,"key":"1.2.1.10.1"},{"backlink":"chapter_1/1.1.19.Byte_swapping.html#fig1.2.1.19.1","level":"1.2.1.19","list_caption":"Figure: 字节交换","alt":"字节交换","nro":3,"url":"/images/chapter_1/1.1.19.Byte_swapping.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"字节交换","attributes":{},"skip":false,"key":"1.2.1.19.1"},{"backlink":"chapter_1/1.1.21.Matrix.html#fig1.2.1.21.1","level":"1.2.1.21","list_caption":"Figure: Matrix Identity","alt":"Matrix Identity","nro":4,"url":"/images/chapter_1/1.1.21.Matrix_identity.png","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"Matrix Identity","attributes":{},"skip":false,"key":"1.2.1.21.1"},{"backlink":"chapter_1/1.1.22.Linear_algebra.html#fig1.2.1.22.1","level":"1.2.1.22","list_caption":"Figure: Linear algbra","alt":"Linear algbra","nro":5,"url":"/images/chapter_1/1.1.22.linear-algebra.jpeg","index":1,"caption_template":"图 _PAGE_LEVEL_ - _CAPTION_ ","label":"Linear algbra","attributes":{},"skip":false,"key":"1.2.1.22.1"}]},"title":"Quant","language":"zh-hans","links":{"sidebar":{"Home":"https://quant.renkeju.com"},"gitbook":false,"sharing":{"twitter":false,"facebook":false,"all":false}},"gitbook":"3.2.3","this":{"output":{"name":"quant"}}},"file":{"path":"chapter_1/1.1.12.Array_operation.md","mtime":"2021-11-22T15:00:20.379Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-22T15:01:20.086Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
