@@ -31,6 +31,12 @@
         * [模块](chapter_1/1.2.2.Module.md)
         * [常量模块](chapter_1/1.2.3.constants.md)
         * [优化器](chapter_1/1.2.4.Optimize.md)
+        * [稀疏矩阵](chapter_1/1.2.5.Sparse_matrix.md)
+        * [图结构](chapter_1/1.2.6.graph.md)
+        * [空间数据](chapter_1/1.2.7.spatial_data.md)
+        * [Matlab 数组](chapter_1/1.2.8.Matlab_arrays.md)
+        * [插值](chapter_1/1.2.9.Interpolation.md)
+        * [显著性检验](chapter_1/1.2.10.Significance_tests.md)
     * [Pandas](chapter_1/1.3.pandas.md)
     * [matplotlib](chapter_1/1.4.matplotlib.md)
 
